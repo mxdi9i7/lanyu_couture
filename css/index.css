@@ -32,6 +32,20 @@ nav img {
  	height: 50px;
  	margin: 5px 0px;
 }
+#body footer ul.right {
+	display: inline;
+	margin: 0px auto;
+}
+#body footer ul.right li {
+	display: inline;
+	margin: 0px 10px;
+	transition-duration: 0.5s;
+	font-size: 18px;
+}
+#body footer ul.right li:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 990px) {
     #test {
         display: none;

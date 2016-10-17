@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
 #body {
-    display: flex;
     min-height: 100vh;
-    flex-direction: column;
     font-family: 'Cormorant Garamond', serif;
-}
-main {
-    flex: 1 0 auto;
 }
 
 #body nav ul li a{
@@ -15,6 +10,12 @@ main {
 	font-weight: bolder;
 	letter-spacing: 1px;
 	margin: 0px 20px;
+}
+#body nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 nav .nav-wrapper {
   	padding: 0px 50px;
@@ -45,6 +46,23 @@ nav img {
 #body footer ul.right li:hover {
 	opacity: 0.5;
 	cursor: pointer;
+}
+#body #indexContent {
+	height: 100vh;
+	width: auto;
+	max-width: 100%;
+}
+#video-bg {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: auto;
+	min-width: 100%;
+	height: auto;
+	min-height: 100%;
+	z-index: -100;
+	background: transparent url(video-bg.jpg) no-repeat;
+	background-size: cover;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 990px) {
     #test {

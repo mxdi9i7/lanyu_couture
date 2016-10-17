@@ -5,7 +5,6 @@
 	<!-- Compiled and minified CSS -->
   	<link rel="stylesheet" href="../css/materialize.css">
   	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   	<link rel="icon" type="img/png" href="../img/logo.png">
 </head>
